@@ -35,10 +35,10 @@
     ]
   },
   "flex-layout.col#filter": {
-    "width": "20%",
     "children": ["filter-navigator.v3" ]
   },
   "flex-layout.col#search": {
+    "width": "20%",
     "children": [
       "search-content"
     ]
