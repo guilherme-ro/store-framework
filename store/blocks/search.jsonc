@@ -15,12 +15,12 @@
     },
     "children": [
       "breadcrumb.search",
-      "search-title",
-      "total-products",
-      "order-by",
+      "search-title.v2",
+      "total-products.v2",
+      "order-by.v2",
       "search-fetch-previous",
       "search-content",
-      "filter-navigator",
+      "filter-navigator.v3",
       "search-fetch-more"
     ]
   }
