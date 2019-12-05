@@ -39,8 +39,10 @@
       ]
     },
     "product-brand": {
-      "displayMode": "logo",
-      "height": "30"
+      "props": {
+        "displayMode": "logo",
+        "height": "30"
+      }
     },
     "product-price": {
         "props": {
@@ -55,9 +57,12 @@
         ]
       },
       "sku-selector": {
-        "initialSelection": "empty",
-        "DisplayMode": "select",
-        "showVariationsErrorMessage": "true"
+        "props": {
+          "initialSelection": "empty",
+          "DisplayMode": "select",
+          "showVariationsErrorMessage": "true",
+          "showValueNameForImageVariation": true
+        }
       },
       "shipping-simulator": {
         "children": [
