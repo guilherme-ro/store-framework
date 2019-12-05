@@ -25,6 +25,9 @@
       "verticalAlign": "middle",
       "preventVerticalStretch": "true"
     },
+    "shelf.relatedProducts": {
+
+    },
     "children": [
       "product-name", "product-identifier.product", "product-price", "flex-layout.row#qty-sku", "buy-button"
     ]
@@ -40,9 +43,10 @@
     "height": "30"
   },
   "product-price": {
-    "props": {
-      "showSavings": "true",
-      "showListPrice": "true"
+      "props": {
+        "showSavings": "true",
+        "showListPrice": "true"
+      }
     },
     "flex-layout.row#qty-sku": {
       "children": [
@@ -62,3 +66,4 @@
       ]
     }
 }
+
