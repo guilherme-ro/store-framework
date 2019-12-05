@@ -29,9 +29,6 @@
       "product-name", "product-identifier.product", "product-price", "flex-layout.row#qty-sku", "buy-button"
     ]
   },
-  "shelf.relatedProducts": {
-
-  },
   "stack-layout#brand": {
     "childrend": [
       "product-images",
@@ -52,6 +49,11 @@
         "sku-selector",
         "product-quantity"
       ]
+    },
+    "sku-selector": {
+      "initialSelection": "empty",
+      "DisplayMode": "select",
+      "showVariationsErrorMessage": "true"
     },
     "shipping-simulator": {
       "children": [
